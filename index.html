@@ -4,58 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>teste</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
-        <div>
-            <img src="img/logo.png" id="logo">
-        </div>
         
-        <div class="cabeçalho">
-            <div id="menu">
-                <a class="menu" href="#">Home</a>
-                <a class="menu" href="#">Services</a>
-                <a class="menu" href="#">Blog</a>
-                <a class="menu" href="#">About</a>
-                <a class="menu" href="#">FAQ</a>
-            </div>
-            <a href="#"><img src="img/lupa.png" id="lupa"></a>
+        <div>
+            <a href="#"><img src="img/logo.png" id="logo"></a>
         </div>
+         
+            <span class="material-symbols-outlined" onclick="clicar()">
+                menu
+            </span>
+        <menu id="itens">    
+          <ul>
+             <li><a href="#" id="l1">Home</a></li>
+             <li><a href="#" id="l1">Services</a></li> 
+             <li><a href="#" id="l1">Blog</a></li> 
+             <li><a href="#" id="l1">About</a></li> 
+             <li><a href="#" id="l1">FAQ</a></li>
+          </ul>
+        </menu>
     </header>
     <main>
-        <div class="menu-esquerda">
-            <div>
-                <h1 class="t1">Subscribe Now</h1>
-                <h1 class="t2">to Our Newsletter</h1>
-                <p >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    <br> 
-                    Dicta ducimus cum modi debitis! Rem est suscipit,
-                    <br>
-                    temporibus repudiandae neque numquam aliquam 
-                </p>
-            </div>
-            
-            <div class="input">
-                
-                <div>
-                    <input type="text" class="name" id="input" placeholder="Name...">                    
-                </div>
-                
-                <div>
-                    <input type="email" class="email" id="input" placeholder="Email">
-                </div>
-                <input type="submit" name="submit" id="submit">
-            </div>
+        <div id="titulos">
+            <h1>Subscribe Now</h1>
+            <h2>To Our Newsletter</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Perspiciatis cupiditate optio asperiores sint nisi est sequi ipsam vero! <br> Officia, at? Culpa, recusandae nulla</p>
         </div>
-
-        <img src="img/img3.png" class="img">
+        <div id="barra">
+            <input type="text" class="barra">
+            <input type="text" class="barra">
+            <input type="button" value="Enviar" class="botão">
+        </div>
     </main>
-    <footer>
-
-    </footer>
     <script src="script.js"></script>
 </body>
 </html>
