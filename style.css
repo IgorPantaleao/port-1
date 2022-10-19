@@ -36,9 +36,10 @@ header {
     color: white;
     position: absolute;   
     background-color: #20364b;
-    margin-left: -450px;
-    padding-right: 350px;
-    padding-bottom: 380px;
+    margin-left: -500px;
+    padding-right: 300px;
+    padding-left: 100px;
+    padding-bottom: 370px;
 }
 
 li {
